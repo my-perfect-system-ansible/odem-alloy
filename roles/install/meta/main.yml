@@ -18,5 +18,5 @@ galaxy_info:
     - logs
     - odem-alloy
 dependencies:
-  - role: odem.base.identity
+  - role: odem.users.user
   - role: odem.alloy.base

@@ -11,7 +11,7 @@ argument_specs:
         disabled features are cleaned up on the next run, gated by
         install_enable_purge_config.
       - Only stdlib and ansible.posix collections are required on top of
-        odem.base.
+        odem.users.
       - Shared base_* variables (user, config dir, ports, labels, remotes)
         are provided by the odem.alloy.base dependency.
     options:
