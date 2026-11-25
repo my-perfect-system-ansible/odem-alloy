@@ -28,7 +28,7 @@ the restart handler through role-dependency propagation.
 
 ## Dependencies
 
-- `odem.users.user`
+- `odem.os.user`
 
 ## Example usage
 
