@@ -26,8 +26,8 @@ for installing and configuring the Alloy observability agent.
 
 ## Conventions
 
-- Follows the cross-collection conventions documented in the root
-  `AGENTS.md` / `manage/AGENTS.md` (task naming, toggle pattern,
+- Follows the cross-collection conventions documented in
+  `../playbook-example/AGENTS.md` (task naming, toggle pattern,
   install/facts/configure sub-steps).
 - `odem.alloy.base` is the single source of truth for shared `base_*`
   variables and the `Restart alloy` handler. Child roles declare it as a
