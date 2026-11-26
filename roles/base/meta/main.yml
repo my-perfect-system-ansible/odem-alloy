@@ -15,5 +15,4 @@ galaxy_info:
     - alloy
     - observability
     - odem-alloy
-dependencies:
-  - role: odem.os.user
+dependencies: []
