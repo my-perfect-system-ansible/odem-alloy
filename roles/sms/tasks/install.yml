@@ -38,6 +38,12 @@
     owner: root
     group: "{{ user_default_admin_group }}"
     recurse: true
+  become: true
+
+- name: Set setgid bit on mps-services-sms
+  ansible.builtin.file:
+    path: "{{ sms_repo_dest }}"
+    state: directory
     mode: "2775"
   become: true
 
